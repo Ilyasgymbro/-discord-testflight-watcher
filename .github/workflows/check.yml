@@ -2,7 +2,7 @@ name: Discord TestFlight Watcher
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "* * * * *"
   workflow_dispatch:
 
 jobs:
